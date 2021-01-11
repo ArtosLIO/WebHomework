@@ -7,50 +7,51 @@ html {
 	height: 100%;
 	width: 100%
 }
-table{
-	width: 100%;
+ul, ol{
+	padding-left: 40px;
 }
 
 
-#header header{
+header{
 	padding: 5px;
 	border-bottom: 3px solid;
 	text-align: center;
 }
 
-#footer{
-	height: 30px;
-}
-#footer footer{
+footer{
 	padding: 3px;
+	padding-top: 8px;
+	padding-right: 8px;
 	border-top: 3px solid;
 	text-align: right;
+	position: relative;
 }
 
 
-#body{
-	height: 530px;
-	border: 3px solid;
+#content{
+	height: 500px;
 }
-
-#body .toolbox{
-	width: 18%;
+nav{
+	width: 20%;
+	height: 100%;
+	float: left;
+	position: relative;
 	border-right: 3px solid;
-	vertical-align: top;
 }
-#body .toolbox ul{
-	padding-left: 20px;
-	margin-bottom: 10px;
-	margin-top: 10px;
+article{
+	width: 78%;
+	height: 100%;
+	float: right;
+	position: relative;
 }
-#body .toolbox ol{
-	padding-left: 20px;
-	margin-top: 10px;
+#content article time{
+	display: block;
+	padding-top: 10px;
 }
-#body .article{
-	vertical-align: top;
-	padding: 10px;
-}
-#body .article ol{
-	padding-left: 40px;
+
+
+#content nav ol, ul{
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
