@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+html {
+	height: 100%;
+	width: 100%
+}
+ul, ol{
+	padding-left: 40px;
+}
+
+
+header{
+	padding: 5px;
+	border-bottom: 3px solid;
+	text-align: center;
+}
+
+footer{
+	padding: 3px;
+	padding-top: 8px;
+	padding-right: 8px;
+	border-top: 3px solid;
+	text-align: right;
+	position: relative;
+}
+
+
+#content{
+	height: 500px;
+}
+nav{
+	width: 20%;
+	height: 100%;
+	float: left;
+	position: relative;
+	border-right: 3px solid;
+}
+article{
+	width: 78%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+#content article time{
+	display: block;
+	padding-top: 10px;
+}
+
+
+#content nav ol, ul{
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
