@@ -14,24 +14,23 @@
 }
 
 
-
-#head{
+	
+header{
 	background: rgb(211, 183, 20);
 	width: 100%;
 	height: 82px;
 	padding: 10px;
-}
-#head header{
+
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
-#head header .link{
+header nav{
 	display: flex;
 	flex-direction: row;
 }
-#head header .link div a{
+div.head-link a{
 	padding: 5px;
 	color: black;
 	text-decoration: none; 
@@ -150,17 +149,17 @@
 
 
 
-#content-box .navigation{
+#content-box aside{
 	min-width: 210px;
 	padding: 10px;
 
 	display: flex;
 	justify-content: center;
 }
-#content-box div.navigation:first-child {
+#content-box aside:first-child {
 	background: rgb(199, 152, 185);
 }
-#content-box div.navigation:last-child{
+#content-box aside:last-child{
 	background: rgb(156, 177, 199);
 }
 

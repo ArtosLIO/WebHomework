@@ -29,7 +29,7 @@ ul + p{
 div.text-box h3:first-child{
 	color: pink;
 }
-p[id="greycol"]{
+#greycol{
 	color: grey;
 }
 div.text-box div > p{
