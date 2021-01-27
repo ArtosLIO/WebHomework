@@ -21,6 +21,7 @@ function getNumberType(value){
 		dateNow = new Date();
 		formatDate = dateNow.getDate() + '.' + dateNow.getMonth() + '.' + dateNow.getFullYear() + 
 			', ' + dateNow.getHours() + ':' + dateNow.getMinutes() + ':' + dateNow.getSeconds();
+        // .tolocalString().replaceAll('/', ':');
 		console.log(formatDate);
 	} else {
 		console.error('Invalid data type!');
