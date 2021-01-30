@@ -28,7 +28,7 @@ body{
 }
 
 #add-user{
-	background: lightgreen;
+	border: 5px solid lightgreen;
 }
 
 .filling-error{
